@@ -1,47 +1,38 @@
 {
-  "skills": [
+  "products": [
     {
-      "Frontend": [
-        "HTML5",
-        "CSS3",
-        "Responsive",
-        "HTML5",
-        "CSS3",
-        "Responsive",
-        "HTML5",
-        "CSS3",
-        "Responsive"
-      ]
+      "title": "Геомагнитный калькулятор",
+      "text": "Расчет параметров геомагнитного поля внутриземных источников IGRF-модель",
+      "icon": "geo-calc"
     },
     {
-      "Backend": [
-        "PHP",
-        "mySQL",
-        "Node.js",
-        "Express",
-        "PHP",
-        "mySQL",
-        "Node.js",
-        "Express",
-        "PHP",
-        "mySQL",
-        "Node.js",
-        "Express"
-      ]
+      "title": "Геомагнитные вариации",
+      "text": "Геопространственная визуализация возмущенных вариаций геомагнитного поля",
+      "icon": "geo-variation"
     },
     {
-      "WorkFlow": [
-        "Git",
-        "Gulp",
-        "Bower",
-        "Git",
-        "Gulp",
-        "Bower",
-        "Git",
-        "Gulp",
-        "Bower"
-      ]
+      "title": "Полярные сияния",
+      "text": "Прогноз интенсивности полярных сияний и геолокации аврорального овала",
+      "icon": "geo-auroras"
+    },
+    {
+      "title": " Данные",
+      "text": "Традиционные и новые индексы геомагнитной активности",
+      "icon": "geo-data"
     }
   ],
-  "text": "Я веб разработчик из Новосибирска. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты."
+  "socials": [
+    {
+      "name": "fb",
+      "icon": "fb"
+    },
+    {
+      "name": "email",
+      "icon": "email"
+    },
+    {
+      "name": "share-link",
+      "icon": "share-link"
+    }
+  ]
 }

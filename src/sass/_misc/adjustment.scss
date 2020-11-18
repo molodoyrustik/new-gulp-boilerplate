@@ -5,28 +5,13 @@ html, body {
 
 // mobile first
 body {
-  min-width: 320px;
+  min-width: 375px;
   font-size: 15px;
   line-height: 24px;
-  font-family:  "Roboto",Arial,sans-serif;
+  font-family: 'Proxima Nova Rg';
   -webkit-font-smoothing: antialiased;
 }
 
-// mobile first
-.container{
-  width: 260px; // либо auto если макет резиновый
-  margin: 0 auto;
-  padding: 0 30px; // не забываем про отступы контента от краев
-
-  @include tablet { // от 768px планшетная версия
-    width: 668px; // либо auto если макет резиновый
-    padding: 0 50px; // не забываем про отступы контента от краев
-  }
-  @include desktop { // от 1200px планшетная версия
-    width: 1050px; // на desktop контент обычно фиксированной ширины
-    padding: 0 100px;
-  }
-}
 
 .hide {
   opacity: 0;
@@ -71,11 +56,3 @@ ul {
 .clearfix {
     *zoom: 1;
 }
-
-
-// html {
-//   box-sizing: border-box;
-// }
-// *, *:before, *:after {
-//   box-sizing: inherit;
-// }

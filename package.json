@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development gulp",
-    "build": "NODE_ENV=production gulp build",
+    "start": "set NODE_ENV=development&&gulp",
+    "build": "set NODE_ENV=production && gulp build",
     "server": "serve build/"
   },
   "keywords": [],
@@ -59,6 +59,7 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "axios": "^0.19.0",
+    "i18next": "^19.3.2",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
   }
