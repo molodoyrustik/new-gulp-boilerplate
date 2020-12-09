@@ -69,14 +69,14 @@ html, body {
     }
 
     @include desktop {
-        padding-left: 91px;
+        padding-left: 50px;
         padding-right: 47px;
         padding-bottom: 0;
         margin-bottom: 66px;
     }
 
     @include desktopFull {
-        padding-left: 178px;
+        padding-left: 50px;
         padding-top: 92px;
         padding-right: 94px;
         margin-bottom: 103px;
@@ -104,6 +104,8 @@ html, body {
 }
 
 .header__logo-img {
+    width: 45px;
+    height: 45px;
 }
 
 .header__logo-text {
@@ -173,6 +175,7 @@ html, body {
     line-height: 41px;
     text-transform: uppercase;
     color: #FFFFFF;
+    word-break: break-word;
 
     @include tablet {
         font-size: 64.7667px;
@@ -207,7 +210,6 @@ html, body {
     }
 
     @include desktop {
-        width: 728px;
         position: relative;
         font-weight: 600;
         font-size: 18px;
@@ -215,7 +217,6 @@ html, body {
     }
 
     @include desktopFull {
-        width: 960px;
         font-size: 23.7115px;
         line-height: 29px;
     }
@@ -264,13 +265,13 @@ html, body {
     @include desktop {
         display: block;
         padding: 0;
-        padding-left: 90px;
+        padding-left: 60px;
         padding-right: 40px;
         padding-bottom: 41px;
     }
 
     @include desktopFull {
-        padding-left: 178px;
+        padding-left: 50px;
     }
 }
 
@@ -343,6 +344,12 @@ html, body {
     justify-self: space-around;
     cursor: pointer;
     text-decoration: none;
+    &:hover .product__title{
+        color: #b9bee3;
+    }
+    &:hover .product__arrow-svg {
+        fill: #b9bee3;
+    }
 }
 
 .product__title {
@@ -364,7 +371,7 @@ html, body {
     @include desktopFull {
         margin-left: 31px;
         font-size: 23.0275px;
-line-height: 28px;
+        line-height: 28px;
         margin-bottom: 10px;
     }
 }
